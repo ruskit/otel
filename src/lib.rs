@@ -10,5 +10,6 @@
 //! - Automatic resource cleanup through Drop implementations
 //! - Error handling for telemetry operations
 
+pub mod keys;
 /// Module containing OpenTelemetry provider management functionality
 pub mod providers;
