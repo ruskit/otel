@@ -1,0 +1,9 @@
+[package]
+name = "otel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opentelemetry = { version = "0.29.1"}
+opentelemetry_sdk = { version = "0.29.0", features = ["logs", "metrics", "trace"] }
+tracing = { version = "0.1.41" }
